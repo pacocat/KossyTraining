@@ -1,0 +1,7 @@
+: cascade base
+: around content -> {
+<div class="container">
+<h1>Contact</h1>
+<h3>Jun Ernesto Okumura</h3>
+<a href="http://pacocat.com/">HP</a> / <a href="https://github.com/pacocat">GitHub</a> / <a href="https://www.facebook.com/jun.e.okumura">Facebook</a>
+: }

@@ -1,0 +1,8 @@
+: cascade base
+: around content -> {
+<div class="container">
+<h1>About</h1>
+<p>This app was made as a part of Kossy training. I referred the description below.<br/>
+<a href="http://blog.nomadscafe.jp/2011/12/kossy-dbixsunny-nopaste.html">Kossy と DBIx::Sunny で作る nopaste</a></p>
+<p>I would like to thank my team members for kind advices.</p>
+: }

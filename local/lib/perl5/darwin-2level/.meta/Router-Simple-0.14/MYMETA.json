@@ -1,0 +1,69 @@
+{
+   "abstract" : "simple HTTP router",
+   "author" : [
+      "Tokuhiro Matsuno E<lt>tokuhirom AAJKLFJEF@ GMAIL COME<gt>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132661",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Router-Simple",
+   "no_index" : {
+      "directory" : [
+         "inc",
+         "t",
+         "xt"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0.98"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.38"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Class::Accessor::Lite" : "0.05",
+            "List::Util" : "0",
+            "Test::More" : "0.88",
+            "parent" : "0",
+            "perl" : "5.00800"
+         }
+      }
+   },
+   "provides" : {
+      "Router::Simple" : {
+         "file" : "lib/Router/Simple.pm",
+         "version" : "0.14"
+      },
+      "Router::Simple::Declare" : {
+         "file" : "lib/Router/Simple/Declare.pm",
+         "version" : "0"
+      },
+      "Router::Simple::Route" : {
+         "file" : "lib/Router/Simple/Route.pm",
+         "version" : "0"
+      },
+      "Router::Simple::SubMapper" : {
+         "file" : "lib/Router/Simple/SubMapper.pm",
+         "version" : "0"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.14"
+}

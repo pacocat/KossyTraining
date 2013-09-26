@@ -1,0 +1,61 @@
+{
+   "abstract" : "simple DBI wrapper/ORMapper",
+   "author" : [
+      "Atsushi Kobayashi  C<< <nekokak __at__ gmail.com> >>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Install version 1.00, CPAN::Meta::Converter version 2.132661",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "DBIx-Skinny",
+   "no_index" : {
+      "directory" : [
+         "inc",
+         "t",
+         "xt"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.42",
+            "Test::More" : "0.96",
+            "Test::SharedFork" : "0.15"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.42"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "0",
+            "Class::Accessor::Lite" : "0",
+            "Class::Load" : "0",
+            "DBI" : "0",
+            "DBIx::TransactionManager" : "1.07",
+            "IO::Handle" : "0",
+            "Scalar::Util" : "0",
+            "Try::Tiny" : "0",
+            "UNIVERSAL::require" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/nekokak/p5-dbix-skinny.git"
+      }
+   },
+   "version" : "0.0742"
+}
